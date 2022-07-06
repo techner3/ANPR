@@ -24,7 +24,7 @@ Dataset : [Link](https://learnopencv.com/automatic-license-plate-recognition-usi
 # Project Structure
 
 
-<img width="229" alt="image" src="https://user-images.githubusercontent.com/58848985/169958144-712f2c5f-a765-493a-a075-092098f40b6a.png">
+<img width="224" alt="image" src="https://user-images.githubusercontent.com/58848985/177536115-b7eed8ca-abd9-4c87-9c4c-df1e11d766ed.png">
 
 
 * com_in_ineuron_ai_utils - This directory contains the script for all necessary function
@@ -36,10 +36,10 @@ Dataset : [Link](https://learnopencv.com/automatic-license-plate-recognition-usi
 
 Web App Main Page :
 
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/58848985/161687024-ed21efcd-a887-45c7-8d72-5b3f3cdc1bd6.png">
+<img width="950" alt="image" src="https://user-images.githubusercontent.com/58848985/177536510-8ac0efe4-eb8f-4bb3-9e0d-cefc74731365.png">
 
 After Prediction: 
 
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/58848985/161687308-577f42c0-7ee8-4ff9-b876-d34a7907a518.png">
+<img width="943" alt="image" src="https://user-images.githubusercontent.com/58848985/177536650-65aa87fc-bd94-4f3a-b1da-973d89f9c127.png">
 
 
