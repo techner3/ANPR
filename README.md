@@ -13,13 +13,13 @@ This project has been developed to detect and recognize a number plate in an ima
 
 # Project Description 
 
-A web app has been developed for this project which takes a image as an input and returns the predictions as a result. The object detection model trained for the project is YOLOv5.For the OCR (Optical Character Recognition part) of the project, PaddleOCR is used. The input image is first encode to base64 format after which is it send to the backend where the image is decoded and thn sent to Yolov5 for license plate detection. Then the image of the detected license plate is sent to Paddle OCR for character Recognition.
+A web app has been developed for this project which takes a image as an input and returns the predictions as a result. The object detection model trained for the project is YOLOv5.For the OCR (Optical Character Recognition) part of the project, PaddleOCR is used. The input image is first encoded to base64 format after which is it send to the backend where the image is decoded and then sent to Yolov5 for license plate detection. Then the image of the detected license plate is sent to Paddle OCR for character Recognition.
 
 # Dataset Used
 
-This dataset is taken from Kaggle and more information about the dataset can be found below.
+This dataset is taken from LearnOpenCv website.
 
-Dataset : [Link](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection)
+Dataset : [Link](https://learnopencv.com/automatic-license-plate-recognition-using-deep-learning#Detection-of-License-plate-using-YOLOv4)
 
 # Project Structure
 
