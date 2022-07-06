@@ -43,10 +43,10 @@ class Detector():
                 x2 = int(row['xmax'])
                 y2 = int(row['ymax'])
                 cropped_image = image[y1:y2, x1:x2]
-                cv2.rectangle(image, (x1, y1), (x2, y2), (0, 255, 0), 2)
                 result = self.ocr.ocr(cropped_image)
                 if len(result)!=0:
                     txts = [line[1][0] for line in result]
+                    cv2.rectangle(image, (x1, y1), (x2, y2), (0, 255, 0), 2)
                     cv2.putText(image, txts[0], (x1, y1-25), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0),2, cv2.LINE_AA)
             output_filename = 'output.jpg'
             cv2.imwrite(output_filename, image)
